@@ -1,0 +1,155 @@
+
+# --------------------------
+# Python
+# --------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# --------------------------
+# Virtual Environments
+# --------------------------
+venv/
+.venv/
+env/
+ENV/
+virtualenv/
+
+# --------------------------
+# Datasets
+# --------------------------
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Dataset formats
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pcap
+*.pcapng
+*.npy
+*.npz
+
+# --------------------------
+# ML Model Artifacts
+# --------------------------
+artifacts/
+checkpoints/
+weights/
+models/checkpoints/
+trained_models/
+
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.joblib
+*.safetensors
+*.tflite
+*.pb
+
+# --------------------------
+# Archives
+# --------------------------
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+
+# --------------------------
+# Training Outputs
+# --------------------------
+runs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+logs/
+outputs/
+experiments/
+evaluation_results/
+
+*.log
+*.out
+*.err
+
+# --------------------------
+# Jupyter
+# --------------------------
+.ipynb_checkpoints/
+.profile/
+*.ipynb_checkpoints
+
+# --------------------------
+# IDEs
+# --------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# --------------------------
+# Operating Systems
+# --------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --------------------------
+# Environment Variables
+# --------------------------
+.env
+.env.*
+!.env.example
+
+# --------------------------
+# Temporary Files
+# --------------------------
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# --------------------------
+# Profiling
+# --------------------------
+.prof
+.profraw
+*.coverage
+.coverage
+htmlcov/
+
+# --------------------------
+# Local Configuration
+# --------------------------
+config.local.yaml
+config.local.yml
+secrets/
+credentials/
